@@ -1,1 +1,39 @@
 # PortfolioMaisPraTi
+
+Fiz o projeto usando com base 2 cores:
+#1d90bd
+#E85F6C
+que fiz a combinação com a imagem do Hero e consultei na Roda de Cores da Adobe
+Além do projeto aprendido em aula mudei as cores, imagens, ícones, as cores dos títulos
+das seções e alguns espaçamentos para ficar mais harmônico
+
+Tem as seguintes seções:
+
+1 - Menu: fixado na parte superior tem o nome de casa seção 
+
+2 - Hero: Faço a minha apresentação inicial simples
+    Foto do Hero peguei no site https://unsplash.com/pt-br/fotografias/5J0ZcXi73eo
+    Usei o efeito de Glasmorphismo
+
+3 - Sobre mim: Fiz em duas colunas, na primeira coloquei uma foto minha 
+    e na segunda coluna conto um pouco de mim mim e da minha carreira profissional
+    separado em 3 parágrafos
+
+
+4 - Habilidades: Fiz por containers, sendo na primeira linha em 3 colunas
+    e na segunda linha com 2 colunas
+    Usei os ícones do FontAnsewone que escolhi um para cada habilidade
+
+5 - Portfólio: fiz com 2 linhas e duas colunas classificados como "cards"
+    e em cada um a foto, descrição e link para um projeto que
+    aprendi no curso
+
+6 - Contatos: usei um frame do Google para colocar o endereço com 
+    a localização e em outra coluna meus contatos 
+
+7 - Footer: separado por "divs" coloquei o ícone e link das minhas 
+    principais redes sociais
+
+
+
+

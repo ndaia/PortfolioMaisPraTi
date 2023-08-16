@@ -1,4 +1,4 @@
-/* Editando as seções*/
+/* Editando as seções */
 #sobre,
 #servicos, 
 #portfolio, 
@@ -6,7 +6,7 @@
     padding: 10rem 0;
 }
 
-/* Image Hero */
+/* Images Hero */
 .bgimage {
     height: 100vh;
     position: relative;
@@ -29,9 +29,18 @@
     color: white;
 }
 
+.titleColor01 {
+    color:#1d90bd
+}
+
+.titleColor02 {
+    color:#E85F6C
+}
+
 /* Imagem Sobre Mim*/
 .aboutImage {
     width: 100%;
+
 }
 
 .servicesText.card {
@@ -48,14 +57,18 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #E85F6C;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #E85F6C;
 }
 
 /* Estilização do Cabeçalho */
 .navbar {
+    background-color: #1d90bd;
+}
+
+.navbar a {
     color: white;
     padding: 0.5rem; 
 }
@@ -65,15 +78,14 @@
     border-radius: 4px;
 }
 
-
 .contactIcon {
     font-size: 2.5rem;
-    color: #006342
+    color: #E85F6C
 }
 
 /* Footer */
 footer {
-    background-color: #003020;
+    background-color: #E85F6C;
 }
 
 .footerIcon {
@@ -86,7 +98,7 @@ footer {
 }
 
 .footerDev {
-    background-color: #006342;
+    background-color: #1d90bd;
 }
 
 /* Efeito de GlassMorphismo */
@@ -94,4 +106,22 @@ footer {
     position: absolute;
     height: 40%;
 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(29, 144, 189, 0.48);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.colorLink {
+    color:#1d90bd;
+    font-size: 1.5rem;
+}
+
+.colorLink:hover {
+    color: black;
+    font-size: 1.5rem;
 }

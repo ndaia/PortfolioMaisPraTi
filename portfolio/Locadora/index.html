@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Locadora 2000</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" type="image/png" href="/img/icon.png" />
+    <link rel="icon" type="image/png" href="/portfolio/Locadora/img/icon.png" />
     <!-- Arquivo CSS -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link 
@@ -27,14 +27,14 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <img class="me-3" src="/img/film.svg" alt="Locadora 2000" />
+            <img class="me-3" src="/portfolio/Locadora/img/film.svg" alt="Locadora 2000" />
             <a class="navbar-brand" href="#topo">Locadora 2000</a>
            
             <div class="collapse navbar-collapse" id="navBarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li>
                         <a class="nav-link active" aria-current="page" href="#tabfilmes"
-                        >Filmes Dsiponíneis</a
+                        >Filmes Disponíneis</a
                         >
                     </li>
 
@@ -45,7 +45,7 @@
                             role="button"
                             data-bs-toggle="dropdown" 
                             href="#drop"
-                            aria-expanden="false"
+                            aria-expanded="false"
                         >
                             Filmes por Categoria
                         </a>
@@ -68,14 +68,14 @@
         </div>
     </nav>
 
-    <h1 class="display-1 text-center mb-5 mt-3">Locadora 2000</h1>
+    <h1 class="display-1 text-center mb-5 mt-3" id="topo">Locadora 2000</h1>
 
     <div class="container">
-        <table class="table table-striped tabel hover">
+        <table class="table table-striped table-hover">
             <thead>
                 <tr>
                     <th scope="col">Código</th>
-                    <th scope="col">Titulo</th>
+                    <th scope="col">Título</th>
                     <th scope="col">Diretor</th>
                     <th scope="col">Lançamento</th>
                     <th scope="col">Gêneros</th>
@@ -167,7 +167,7 @@
         </table>
     </div>
 
-    <div class="mb-5 mt5">
+    <div class="mb-5 mt-5">
         <hr class="borde-primary border-3 opacity-75" />
     </div>
 
@@ -178,12 +178,12 @@
             <!--Cadastro do Código e do Título-->
             <div class="row">
                 <div class="mb-3 col">
-                    <label for="codFilme" class="form-label">Códigos</label>
-                    <input type="text" class="form-control" id="codFilm" />
+                    <label for="codFilm" class="form-label">Código</label>
+                    <input type="text" class="form-control" id="codFilm" name="cod" />
                 </div>
 
                 <div class="mb-3 col">
-                    <label for="titleFilme" class="form-label">Títulos</label>
+                    <label for="titleFilm" class="form-label">Título</label>
                     <input 
                         type="text" 
                         class="form-control" 
@@ -196,7 +196,7 @@
             <!--Cadastro de Diretor e Lançamento-->
             <div class="row">
                 <div class="mb-3 col">
-                   <label for="directorFilme" class="form-label">Diretor</label>
+                   <label for="directorFilm" class="form-label">Diretor</label>
                    <input 
                     type="text" 
                     class="form-control" 
@@ -206,7 +206,7 @@
                 </div>
 
                <div class="mb-3 col">
-                   <label for="yearFilme" class="form-label">Lançamento</label>
+                   <label for="yearFilm" class="form-label">Lançamento</label>
                    <input 
                     type="text" 
                     class="form-control" 
@@ -221,55 +221,55 @@
             <p>Selecione o Gênero</p>
             <div class="row mt-3">
                 <div class="col form-check ms-5">
-                   <input 
-                    type="radio" 
-                    id="radioGAcao" 
-                    name="radio" 
+                  <input
+                    type="radio"
+                    id="radioGAcao"
+                    name="radio"
                     class="form-check-input"
                     value="acao"
-                   />
-                   <label for="radioGAcao" class="form-label">Ação</label>
+                  />
+                  <label for="radioGAcao" class="form-label">Ação</label>
                 </div>
                 <div class="col form-check">
-                    <input 
-                     type="radio" 
-                     id="radioGAnim" 
-                     name="radio" 
-                     class="form-check-input"
-                     value="animacao"
-                    />
-                    <label for="radioGAnim" class="form-label">Animação</label>
-                 </div>
-                 <div class="col form-check">
-                    <input 
-                     type="radio" 
-                     id="radioGRoman" 
-                     name="radio" 
-                     class="form-check-input"
-                     value="romance"
-                    />
-                    <label for="radioGRoman" class="form-label">Romance</label>
-                 </div>
-                 <div class="col form-check">
-                     <input 
-                      type="radio" 
-                      id="radioGSus" 
-                      name="radio" 
-                      class="form-check-input"
-                      value="suspense"
-                     />
-                     <label for="radioGSus" class="form-label">Suspense</label>
-                  </div>
-            </div>   
+                  <input
+                    type="radio"
+                    id="radioGAnim"
+                    name="radio"
+                    class="form-check-input"
+                    value="animacao"
+                  />
+                  <label for="radioGAnim" class="form-label"> Animação </label>
+                </div>
+                <div class="col form-check">
+                  <input
+                    type="radio"
+                    id="radioGRoman"
+                    name="radio"
+                    class="form-check-input"
+                    value="romance"
+                  />
+                  <label for="radioGRoman" class="form-label">Romance</label>
+                </div>
+                <div class="col form-check">
+                  <input
+                    type="radio"
+                    id="radioGSus"
+                    name="radio"
+                    class="form-check-input"
+                    value="suspense"
+                  />
+                  <label for="radioGSus" class="form-label">Suspense</label>
+                </div>
+              </div>
             
              <!--Botão de Enviar-->
-            <div class="col-auto d-flex justify-content-center">
-                <button 
-                    type="submit"
-                    onclick="validationForm(); insert()"                    
-                    class="btn btn-primary mt3"
-                    >
-                    Cadastrar
+             <div class="col-auto d-flex justify-content-center">
+                <button
+                  type="submit"
+                  onclick="validationForm(); insert()"
+                  class="btn btn-primary mt-3"
+                >
+                  Cadastrar
                 </button>
             </div>     
         </form>
